@@ -5,7 +5,7 @@ This is a comment multi line
 
 // Variable
 
-console.log('This is just for consol test');
+// console.log('This is just for consol test');
 // alert('This is alart')
 
 // var myVariableName = 20,
@@ -81,32 +81,53 @@ console.log('This is just for consol test');
 // console.log(myVariable);
 // var myVariable = "How are you";
 // console.log(newVar);
-(function newFunc(){
-    console.log('invoked automatically');
-}());
-!function anotherFunc(){
-    console.log('invoked automatically too');
-}();
+// (function newFunc(){
+//     console.log('invoked automatically');
+// }());
+// !function anotherFunc(){
+//     console.log('invoked automatically too');
+// }();
 
-var world = 100;
+// var world = 100;
 
-(function localFunc(){
-    var local = 'local variable'
+// (function localFunc(){
+//     var local = 'local variable'
 
-    console.log(world)
-    console.log(local)
-}());
+//     console.log(world)
+//     console.log(local)
+// }());
 
-(function thisFunc(){
-    'use strict'
-    console.log(this);
+// (function thisFunc(){
+//     'use strict'
+//     console.log(this);
     
-    var object = {
-        property : 'Hi, I am This',
-        method: function(){
-            return this.property;
-        }
+//     var object = {
+//         property : 'Hi, I am This',
+//         method: function(){
+//             return this.property;
+//         }
+//     }
+
+//     console.log(object.method());
+// }());
+
+// var myClass = 200
+// console.log(myClass)
+(function(){
+    'use strict';
+    if(true == false){
+        console.log('we well see this')
+    }
+    else{
+        console.log('this is from else statement')
+    }
+    if(1){
+        console.log('')
+    }
+    var array = ['item1'];
+    if(array.length){
+        console.log(array[0]);
     }
 
-    console.log(object.method());
+    (true) ? console.log('This is true - a ternary ternary truethy value') : console.log('This is a falsy value')
 }());
