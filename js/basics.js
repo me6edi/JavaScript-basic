@@ -115,19 +115,40 @@ This is a comment multi line
 // console.log(myClass)
 (function(){
     'use strict';
-    if(true == false){
-        console.log('we well see this')
-    }
-    else{
-        console.log('this is from else statement')
-    }
-    if(1){
-        console.log('')
-    }
-    var array = ['item1'];
-    if(array.length){
-        console.log(array[0]);
-    }
+    // if(true == false){
+    //     console.log('we well see this')
+    // }
+    // else{
+    //     console.log('this is from else statement')
+    // }
+    // if(1){
+    //     console.log('')
+    // }
+    // var array = ['item1'];
+    // if(array.length){
+    //     console.log(array[0]);
+    // }
 
-    (true) ? console.log('This is true - a ternary ternary truethy value') : console.log('This is a falsy value')
+    // (true) ? console.log('This is true - a ternary ternary truethy value') : console.log('This is a falsy value')
+
+
+
+    //switch
+    var switcher = 'one';
+    switch(switcher){
+        case 'one':
+            console.log('one');
+            break;
+        case 'two':
+            console.log('two')
+            break;
+    }
+// for loop 
+var anArray = ['item1','item2','item3'];
+for (var x = 0; x < anArray.length; x++){
+    console.log(anArray[x]);
+}
+//for in loop 
+
 }());
+
