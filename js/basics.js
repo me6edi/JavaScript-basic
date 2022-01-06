@@ -199,8 +199,8 @@ This is a comment multi line
 
 // }());
 
-(function(){
-    'use strict';
+// (function(){
+//     'use strict';
 
     // var testString = 'test string';
 
@@ -221,25 +221,91 @@ This is a comment multi line
 
     // console.log('    this  '.trim());
 
-    var array1 = ['one', 'two', 'three','four'];
-    console.log(array1.length);
+    // var array1 = ['one', 'two', 'three','four'];
+    // console.log(array1.length);
 
-    array1.push('five');
-    array1.unshift('zero');
-    array1.pop();
-    array1.splice(0,2);
-    array1.splice(0,4,'a','b','c','d');
-    array1.reverse();
-    array1.sort();
-    console.log(array1);
-
-    var array2 = [20,30,100,10];
-    array2.sort();
-
-    console.log(array2);
+    // array1.push('five');
+    // array1.unshift('zero');
+    // array1.pop();
+    // array1.splice(0,2);
+    // array1.splice(0,4,'a','b','c','d');
+    // array1.reverse();
+    // array1.sort();
 
 
+    // var array2 = [20,30,100,10];
+    // array2.sort(function(a,b){
+    //     if(a < b){
+    //         return -1;
+    //     }else if(a === b){
+    //         return 0;
+    //     }else{
+    //         return 1;
+    //     }
+    // });
+    // console.log(array2);
+
+    // console.log(array1.join(""));
+
+    // array1.indexOf('c');
+    // console.log(array1)
+    // var array = ['one','two','three'];
+    // array.forEach(function(value,index){
+    //     console.log('This is the value' + value + 'and this is the index number' + index)
+    // });
+    // console.log(array.every(function(value){
+    //     return typeof value === 'string'
+    // }));
+    
+    // console.log([1, 'one', 'five', 7,8].filter(function(value){
+    //     return typeof value !== 'number';
+    // }));
+
+    // console.log(array.map(function(value){
+    //     return value.toUpperCase();
+    // }));
+
+    // console.log([1,2,3,4,5].reduce(function(total,value){
+    //     return total += value;
+    // },100));
 
 
-}())
+// }());
+// (function(){
+//     'use strict'
 
+//     var myObject = {};
+//     var myArray = [1,2,3,4];
+//     console.log(myObject.constructor);
+//     console.log(myArray.constructor);
+
+//     console.log(myObject.hasOwnProperty('constructor'));
+//     myObject.newProperty = "New Property";
+//     console.log(myObject.hasOwnProperty('newProperty'));
+
+//     console.log(myObject.propertyIsEnumerable('constructor'));
+//     console.log(myObject.propertyIsEnumerable('newProperty'));
+
+//     console.log(myObject.toString());
+//     console.log(myArray.toString());
+
+//     console.log(Object.prototype.toString.call([]));
+// }());
+ 
+(function(){
+    'use strict';
+    var newFunc = function newFunc(arg1, arg2, arg3){
+        return arg1+arg2+arg3;
+    };
+    console.log(newFunc.length);
+
+    var person = {
+        name = "Dan",
+        profession = "developer"
+    };
+    console.log(person);
+    // function hello(){
+    //     return console.log('Hi, My name is ' + this.name + 'and my profession is' + this.profession);
+    // }
+    // hello.call(person);
+}());
