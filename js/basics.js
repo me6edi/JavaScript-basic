@@ -292,20 +292,83 @@ This is a comment multi line
 //     console.log(Object.prototype.toString.call([]));
 // }());
  
+// (function(){
+//     'use strict';
+//     var newFunc = function newFunc(arg1, arg2, arg3){
+//         return arg1+arg2+arg3;
+//     };
+//     console.log(newFunc.length);
+
+//     var person = {
+//         name: "Dan",
+//         profession: "developer"
+//     }; 
+//     function hello(user1){
+//         return console.log('Hi '+ user1 +' , My name is ' + this.name + 'and my profession is ' + this.profession);
+//     }
+//     hello.call(person ,'mehedi');
+
+//     function introduce(us1, us2){
+//         return console.log('Hi ' + us1 + ' and ' + us2 + this.name + ', do you feel good as a '+ this.profession);
+//     }
+//     function declare(mode, object, argu){
+//         mode.apply(object, argu);
+//     }
+//     declare(hello, person, ['Amin']);
+//     declare(introduce, person, ['Mark', 'Bob']);
+
+//     function addToCart(price){
+//         if(!this.total){
+//             this.total = 0;
+//         }
+//         this.total += price;
+//         return this.name + ' , your total cart is $' +this.total; 
+//     }
+//     var dansCart = addToCart.bind(person,3);
+//     console.log(dansCart(50));
+//     console.log(dansCart(100));
+//     console.log(dansCart(99));
+
+//     var bob = {
+//         name: "Bob"   
+//     }
+//     var bobsCart = addToCart.bind(bob,10);
+//     console.log(bobsCart(50));
+//     console.log(bobsCart(100));
+//     console.log(bobsCart(99));
+// }());
+
 (function(){
     'use strict';
-    var newFunc = function newFunc(arg1, arg2, arg3){
-        return arg1+arg2+arg3;
-    };
-    console.log(newFunc.length);
 
-    var person = {
-        name = "Dan",
-        profession = "developer"
-    };
-    console.log(person);
-    // function hello(){
-    //     return console.log('Hi, My name is ' + this.name + 'and my profession is' + this.profession);
-    // }
-    // hello.call(person);
+    var newDate = new Date();
+    console.log(newDate);
+    console.log(typeof(newDate));
+
+    var dob = new Date("february 10 1998");
+    console.log(dob);
+
+    var anotherDate = new Date('2002 , 1, 23');
+    console.log(anotherDate)
+
+    console.log(dob.getDate());
+    console.log(dob.getMonth());
+    console.log(dob.getTime());
+    console.log(dob.getFullYear());
+
+    console.log(dob.getUTCDate());
+    console.log(dob.getUTCDay());
+    console.log(dob.getUTCMonth());
+    console.log(dob.getFullYear());
+
+    console.log(dob.getDay());
+    console.log(dob.getUTCDay());
+
+    console.log(dob.toString());
+    console.log(dob.toUTCString());
+    console.log(dob.toTimeString());
+    console.log(dob.toISOString());
+    console.log(dob.toLocaleString());
+
+
 }());
