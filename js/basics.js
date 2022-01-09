@@ -338,37 +338,44 @@ This is a comment multi line
 //     console.log(bobsCart(99));
 // }());
 
+// (function(){
+//     'use strict';
+
+//     var newDate = new Date();
+//     console.log(newDate);
+//     console.log(typeof(newDate));
+
+//     var dob = new Date("february 10 1998");
+//     console.log(dob);
+
+//     var anotherDate = new Date('2002 , 1, 23');
+//     console.log(anotherDate)
+
+//     console.log(dob.getDate());
+//     console.log(dob.getMonth());
+//     console.log(dob.getTime());
+//     console.log(dob.getFullYear());
+
+//     console.log(dob.getUTCDate());
+//     console.log(dob.getUTCDay());
+//     console.log(dob.getUTCMonth());
+//     console.log(dob.getFullYear());
+
+//     console.log(dob.getDay());
+//     console.log(dob.getUTCDay());
+
+//     console.log(dob.toString());
+//     console.log(dob.toUTCString());
+//     console.log(dob.toTimeString());
+//     console.log(dob.toISOString());
+//     console.log(dob.toLocaleString());
+// }());
+
 (function(){
     'use strict';
 
-    var newDate = new Date();
-    console.log(newDate);
-    console.log(typeof(newDate));
-
-    var dob = new Date("february 10 1998");
-    console.log(dob);
-
-    var anotherDate = new Date('2002 , 1, 23');
-    console.log(anotherDate)
-
-    console.log(dob.getDate());
-    console.log(dob.getMonth());
-    console.log(dob.getTime());
-    console.log(dob.getFullYear());
-
-    console.log(dob.getUTCDate());
-    console.log(dob.getUTCDay());
-    console.log(dob.getUTCMonth());
-    console.log(dob.getFullYear());
-
-    console.log(dob.getDay());
-    console.log(dob.getUTCDay());
-
-    console.log(dob.toString());
-    console.log(dob.toUTCString());
-    console.log(dob.toTimeString());
-    console.log(dob.toISOString());
-    console.log(dob.toLocaleString());
-
-
-}());
+    console.log(Math.PI);
+    console.log(Math.ceil(1.2));
+    console.log(Math.floor(1.2));
+    
+}())
