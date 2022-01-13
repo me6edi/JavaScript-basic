@@ -2,9 +2,7 @@
 /*
 This is a comment multi line
 */
-
 // Variable
-
 // console.log('This is just for consol test');
 // alert('This is alart')
 
@@ -130,8 +128,6 @@ This is a comment multi line
     // }
 
     // (true) ? console.log('This is true - a ternary ternary truethy value') : console.log('This is a falsy value')
-
-
 
 //     //switch
 //     var switcher = 'one';
@@ -371,11 +367,33 @@ This is a comment multi line
 //     console.log(dob.toLocaleString());
 // }());
 
+// (function(){
+//     'use strict';
+
+//     console.log(Math.PI);
+//     console.log(Math.ceil(1.2));
+//     console.log(Math.floor(1.2));
+//     console.log(Math.round(4.3));
+//     console.log(Math.max(1,2,4,7,8));
+//     console.log(Math.min(1,2,4,7,8));
+//     console.log(Math.abs(-7));
+//     console.log(Math.sqrt(64));
+//     console.log(Math.pow(3,3));
+//     console.log(Math.random());
+//     console.log(Math.floor(Math.random() * 10 ));
+// }())
+
 (function(){
     'use strict';
-
-    console.log(Math.PI);
-    console.log(Math.ceil(1.2));
-    console.log(Math.floor(1.2));
     
-}())
+    console.log(document.getElementById('heading1'));
+    console.log(document.getElementsByClassName('paragraph'));
+    console.log(document.getElementsByTagName('h2'))
+
+    var firstHeading = document.getElementById('heading1');
+    console.log(firstHeading.id);
+    firstHeading.id = "changedID";
+    console.log(firstHeading.id);
+
+    console.log(firstHeading.className);
+}());
