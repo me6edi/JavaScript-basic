@@ -401,9 +401,7 @@ This is a comment multi line
     console.log(firstHeading.tagName);
     console.log(firstHeading.nodeType);
     console.log(firstHeading.childNodes[0].nodeType);
-
     firstHeading.innerHTML = '<span>' + firstHeading.innerHTML + '</span>';
-    // firstHeading.outerHTML = '<p>' + firstHeading.innerHTML + '</p>';
     firstHeading.setAttribute('contenteditable',true);
     firstHeading.setAttribute('contenteditable');
 }());
