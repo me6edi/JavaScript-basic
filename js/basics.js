@@ -386,9 +386,9 @@ This is a comment multi line
 (function(){
     'use strict';
     
-    console.log(document.getElementById('heading1'));
-    console.log(document.getElementsByClassName('paragraph'));
-    console.log(document.getElementsByTagName('h2'))
+    // console.log(document.getElementById('heading1'));
+    // console.log(document.getElementsByClassName('paragraph'));
+    // console.log(document.getElementsByTagName('h2'))
 
     var firstHeading = document.getElementById('heading1');
     console.log(firstHeading.id);
