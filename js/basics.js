@@ -386,11 +386,12 @@ This is a comment multi line
 (function(){
     'use strict';
     
-    // console.log(document.getElementById('heading1'));
-    // console.log(document.getElementsByClassName('paragraph'));
-    // console.log(document.getElementsByTagName('h2'))
+    console.log(document.getElementById('heading1'));
+    console.log(document.getElementsByClassName('paragraph'));
+    console.log(document.getElementsByTagName('h2'))
 
     var firstHeading = document.getElementById('heading1');
+    var newSection = document.getElementById('newSection');
     console.log(firstHeading.id);
     firstHeading.id = "changedID";
     console.log(firstHeading.id);
@@ -403,5 +404,28 @@ This is a comment multi line
     console.log(firstHeading.childNodes[0].nodeType);
     firstHeading.innerHTML = '<span>' + firstHeading.innerHTML + '</span>';
     firstHeading.setAttribute('contenteditable',true);
-    firstHeading.setAttribute('contenteditable');
+
+
+
+    var section = document.getElementById('newSection');
+    console.log(section.childNodes.length);
+
+    var x, length;
+    for(x = 0, length = section.childNodes.length; x < length; x +=1){
+        if(section.childNodes[x].nodeType === 1){
+            console.log("I am a " + section.childNodes[x].tagName);
+        }
+    }
+
+    console.log(section.children.length);
+    console.log(section.childNodes[0].nodeName);
+    console.log(section.children[0].nodeName);
+    console.log(section.firstChild.parentNode.nodeName);
+    console.log(section.children[0].nextSibling.nodeName);
+    console.log(section.children[1].previousSibling.nodeName);
+    
+
+    newSection.appendChild(firstHeading);
+
 }());
+ 
