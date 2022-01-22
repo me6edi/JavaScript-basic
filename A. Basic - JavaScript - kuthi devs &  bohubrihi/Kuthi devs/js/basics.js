@@ -476,6 +476,9 @@ This is a comment multi line
     var obj = {
         'one' : 'This is  number One'
     };
+    var obj2 = {
+        'two' : 'This is  number two'
+    };
     Object.prototype.specialProperty = 'Yahoo!';
     console.log(obj.specialProperty);
 
