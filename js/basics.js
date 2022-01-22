@@ -426,29 +426,57 @@ This is a comment multi line
 //     newSection.appendChild(firstHeading);
 
 // }());
+// (function(){
+//     'use strict'
+
+//     var options = {
+//         timeout:0
+//     }
+
+//     // var select = document.querySelector('header:first-child');
+//     // console.log(select);
+
+//     // var selectAll = document.querySelectorAll('header');
+//     // console.log(selectAll)
+//     function currentPosition(position){
+//         console.log(position);
+//     }
+//     function positionError(posError){
+//         console.log("opps! timeout error")
+//     }
+//     if(navigator.geolocation){
+//         navigator.geolocation.getCurrentPosition(currentPosition,positionError,options);
+//     }
+
+// }());
+
+// (function(){
+//     'use strict';
+//     console.log(window.sessionStorage);
+//     window.sessionStorage.setItem('test1', true);
+//     window.sessionStorage.setItem('test2', 'Mehedi');
+//     window.sessionStorage.setItem('test3', ['one', 'two']);
+//     window.sessionStorage.setItem('test4', ({prop1 : "property1"}));
+
+//     console.log(window.sessionStorage.getItem('test4'))
+
+//     function readAllItem(){
+//         var x, length;
+//         for(x=0, length = window.sessionStorage.length; x < length; x+=1){
+//             console.log(window.sessionStorage.key(x));
+//         }
+//     }
+//     readAllItem();
+
+// }());
+ 
 (function(){
-    'use strict'
+    'use strict';
 
-    var options = {
-        timeout:0
-    }
-
-    // var select = document.querySelector('header:first-child');
-    // console.log(select);
-
-    // var selectAll = document.querySelectorAll('header');
-    // console.log(selectAll)
-    function currentPosition(position){
-        console.log(position);
-    }
-    function positionError(posError){
-        console.log("opps! timeout error")
-    }
-    if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(currentPosition,positionError,options);
-    }
+    var obj = {
+        'one' : 'This is  number One'
+    };
+    Object.prototype.specialProperty = 'Yahoo!';
+    console.log(obj.specialProperty);
 
 }());
-
-
- 
