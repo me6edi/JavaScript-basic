@@ -116,3 +116,21 @@ console.log(a)*/
 
 //Conditional Operators
 // var a = (10 < 18) ? "Hello":"World";
+
+//Assignment Operator
+// var a = 19;
+// a = a + 12;
+// a +=12 
+
+// Exercise JS
+
+// var celcius = window.prompt("Please enter a temperature:");
+// var fahrenheit = (9/5*celcius+32)
+// window.alert("Fahrenheit: " + fahrenheit + " Degree")
+// console.log("Task Complete!")
+
+// Numbers datatype
+// var x;
+// x = 3.141
+// console.log(x)
+
