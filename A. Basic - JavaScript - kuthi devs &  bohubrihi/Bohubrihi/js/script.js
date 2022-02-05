@@ -134,3 +134,7 @@ console.log(a)*/
 // x = 3.141
 // console.log(x)
 
+//Strings
+// x = "ABC"
+// x.concat("D")
+// x.concat(z,"EFG","1234")
