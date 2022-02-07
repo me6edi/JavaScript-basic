@@ -138,3 +138,27 @@ console.log(a)*/
 // x = "ABC"
 // x.concat("D")
 // x.concat(z,"EFG","1234")
+
+//Booleans
+// x = 10;
+// y = 20;
+// z = x<y;
+// u = x>y;
+// console.log(z)
+// console.log(u)
+
+// Arry1
+// var countries = ["Bangladesh", "USA", "UK"]
+// console.log(countries)
+// console.log(countries[0])
+
+// Arry2
+// var number = []
+// number.push(12)
+// number.push(13)
+// number.push("Two")
+// console.log(number)
+// var x = "Bangladesh"
+// var y = x.split("")
+// console.log(y)
+// console.log(x)
