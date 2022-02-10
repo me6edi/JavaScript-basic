@@ -162,3 +162,10 @@ console.log(a)*/
 // var y = x.split("")
 // console.log(y)
 // console.log(x)
+
+//Ojects
+// var arr = [1,2,3]
+// console.log(arr)
+// var student = {name: "Rahim", age:25, hometown: "Dhaka"}
+// console.log(student)
+
