@@ -169,3 +169,27 @@ console.log(a)*/
 // var student = {name: "Rahim", age:25, hometown: "Dhaka"}
 // console.log(student)
 
+// var student1 = {
+//     name: "Mehedi",
+//     roll: "179500",
+//     age: "19",
+//     department: "Computer",
+//     Shift: "2nd"
+// }
+
+// console.log(student1.department)
+
+// arry and Object
+// var arr = [10, 12, 8, 9];
+// arr = [10, 12,["a","b"], 8, 9];
+// console.log(arr);
+// console.log(arr[2]);
+// console.log(arr[2][0]);
+// arr2 = [1,2,["a", ["word1", "word2"], "b"], 7,18];
+// console.log(arr2);
+// console.log(arr2[2][1][0]);
+
+// arr3 = [1,2,["a","b"], {prop1:"Item 1", prop2:"Item 2"}];
+// console.log(arr3[3]["prop2"])
+// console.log(arr3);
+
