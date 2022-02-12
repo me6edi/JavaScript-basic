@@ -193,3 +193,81 @@ console.log(a)*/
 // console.log(arr3[3]["prop2"])
 // console.log(arr3);
 
+//undefined, Empty Value, null, NaN (Not anumber)
+// var a;
+// a == undefined
+// console.log(a)
+
+// Primitive Types
+// number, string, boolean
+// let a = 7;
+// let b = a;
+// a = 45;
+// console.log(b)
+
+// Reference Types
+// array, object
+// let numbers = [1,2,3];
+// let newNumbers = numbers;
+// console.log(newNumbers);
+// numbers[1] = [500];
+// console.log(numbers)
+// console.log(newNumbers)
+
+// Template literals (ES6)
+// Backtick ``
+// console.log(`First Line
+// second line`)
+// let a = `First line
+// second line`
+// console.log(a)
+// let age = 36;
+// console.log(`His age is ${age}`)
+
+// let name = "Rahim";
+// let age = "38";
+// let dob  = "21 June, 1983";
+
+// console.log(`His name is ${name}
+// His age is ${age}
+// Date of Birth ${dob}
+// `)
+
+// let a = 34
+// let b = 67
+// console.log(`The result is ${ a + b }`);
+
+// Condition If Else Statement
+// if (false){
+//     console.log("If Statement Executed");
+// }
+// else{
+//     console.log("Else Statemnet Executed!");
+// }
+
+// var age = prompt();
+
+// if (age >= 50){
+//     console.log("Old!");
+// }
+// else{
+//     console.log("Under 50!")
+// }
+
+// var age = prompt();
+
+// if ( age >= 50 ){
+//     console.log("Old!");
+// }
+// else if (age < 50 && age >= 30 ){
+//     console.log("Under 50 but above or equal 30!");
+// }
+// else if (age < 30 && age >= 18){
+//     console.log("Under 30 but above or equal 18");
+// }
+// else if( age < 18 && age > 0 ){
+//     console.log("Under 18!");
+// }
+// else{
+//     console.log("Invalid Input!")
+// }
