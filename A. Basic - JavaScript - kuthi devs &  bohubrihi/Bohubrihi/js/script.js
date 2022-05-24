@@ -390,3 +390,8 @@ console.log(a)*/
 //     i++;
 // }
 
+// for loop
+var i = 1
+for (i = 1; i<10; i++){
+    console.log("Hello Mehedi")
+}
