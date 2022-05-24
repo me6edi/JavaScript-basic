@@ -358,3 +358,35 @@ console.log(a)*/
 //   default:
 //     day = "Unknown Day";
 // }
+
+// while loop
+ 
+// infinite loop
+    // while(true){
+    //     console.log("Hello World")
+    // }
+
+// var x = 1;
+// while(x < 5){
+//     console.log("Hello world")
+//     x++;
+// }
+
+// var i = 1;
+
+// while (i <= 10){   
+//         console.log('Value of i: ' + i);
+//         i++;     
+//     }
+// console.log("Out of the loop")
+// var i = 1;
+
+// while(i <= 10){
+//     if(i == 4){
+//         console.log("Value of i is " + i);
+//     }
+
+//     console.log(i);
+//     i++;
+// }
+
