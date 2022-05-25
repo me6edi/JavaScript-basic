@@ -391,7 +391,53 @@ console.log(a)*/
 // }
 
 // for loop
-var i = 1
-for (i = 1; i<10; i++){
-    console.log("Hello Mehedi")
+
+// var i = 1
+// for (i = 1; i<10; i++){
+//     console.log("Hello Mehedi")
+// }
+// for (var j = 1; j <= 5; j++){
+//     console.log(j);
+// }
+
+// for (var k = 5; k >= 1; k--){
+//     console.log("Hello world")
+// }
+
+// for(var i = 1; i<5; i++){
+//     console.log(i);
+//     if(i==3){
+//         break
+//     }
+// }
+
+//String
+
+// let name = "Bangladesh";
+
+// for(var i = 0; i<=10; i++){
+//     console.log('Index : ${i}');
+//     console.log(name[i]);
+// }
+
+// let name = "Hello World";
+// let len = name.length;
+
+// for(var i = 0; i<=len; i++){
+//     console.log('Index : ${i}');
+//     console.log(name[i]);
+// }
+
+// For-in string /array/object
+// For-of string/array
+let name = "I am learnig Javascript!";
+let food =  ["Cake", "Chocolate","Ice Cream"];
+let person = {
+    name: "Shakib Al Hasan",
+    pofession: "Cricketer",
+    team:"Bangladesh",
+    age:33,
+}
+for (var x in name){
+    console.log('index ${x} and item ${ name[x] }');
 }
