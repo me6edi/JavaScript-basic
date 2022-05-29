@@ -430,14 +430,35 @@ console.log(a)*/
 
 // For-in string /array/object
 // For-of string/array
-let name = "I am learnig Javascript!";
-let food =  ["Cake", "Chocolate","Ice Cream"];
-let person = {
-    name: "Shakib Al Hasan",
-    pofession: "Cricketer",
-    team:"Bangladesh",
-    age:33,
-}
-for (var x in name){
-    console.log('index ${x} and item ${ name[x] }');
-}
+// let name = "I am learnig Javascript!";
+// let food =  ["Cake", "Chocolate","Ice Cream"];
+// let person = {
+//     name: "Shakib Al Hasan",
+//     pofession: "Cricketer",
+//     team:"Bangladesh",
+//     age:33,
+// }
+// for (var x in name){
+//     console.log('index ${x} and item ${ name[x] }');
+// }
+
+// function saysomethig(){
+//     var a = prompt("Enter your first number: ");
+//     var b = prompt("Enter you second number: ");
+//     var c = parseInt(a) + parseInt(b);
+//     console.log("The sum of " +a+ " and " +b+ " is: "+ c);
+// }
+// saysomethig();
+
+// function saysomethig(){
+//     console.log(fname,lname)
+// }
+// let fname = "Mehedi"
+// let lname = "Amin"
+// saysomethig(fname,lname)
+
+// function addNum(a = 0,b = 0){
+//     return a+b;
+// }
+// console.log(addNum(4,5));
+// addNum(3.6,5.5)
