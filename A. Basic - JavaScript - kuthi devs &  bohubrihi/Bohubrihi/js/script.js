@@ -462,3 +462,46 @@ console.log(a)*/
 // }
 // console.log(addNum(4,5));
 // addNum(3.6,5.5)
+
+
+// let person1 = {
+//     firstname: "Fazle",
+//     lastname: "Rahat",
+//     dob: "10-02-1997",
+
+//     fullname: function(){
+//         console.log('${this.firstname} ${this.lastname}');
+//     }
+// }
+
+// let person2 = {
+//     firstname: "Mehedi",
+//     lastname: "Rahat",
+//     dob: "10-02-1998",
+
+//     fullname: function(){
+//         console.log('${this.firstname} ${this.lastname}');
+//     }
+// }
+// console.log(person1);
+// console.log(person2);
+
+// class Person{
+//     constructor(){
+//         this.firstname = 'Fazle';
+//         this.lastname = "Rahat";
+//         this.dob = '11-15-51991'
+//     }
+// }
+// let person1 = new Person();
+// console.log(person1);
+
+// Constructor function for Person objects
+ 
+// const person = {
+//     fname: 'Mehedi',
+//     lname: 'Amin',
+//     age: 35,
+    
+// };
+// console.log(person.name)
