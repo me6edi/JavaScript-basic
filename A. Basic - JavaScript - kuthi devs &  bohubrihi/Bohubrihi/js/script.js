@@ -516,4 +516,49 @@ console.log(a)*/
 // const poly1 = new Polygon();
   
 // console.log(poly1.name);
-  
+
+// let person = {
+//     firstname:"Mehedi",
+//     lastname: "Amin",
+//     dob: "9-10-1995",
+
+//     fullname: function(){
+//         return '${this.firstname} ${this.lastname}';
+//     }
+// }
+// console.log(person.firstname);
+// console.log(person.fullname());
+
+// let str = "Mehedi Amin";
+// console.log(str.length);
+// console.log(str.split);
+
+// let val;
+// val = Math.PI;
+// val = Math.E;
+// val = Math.round(3.5);
+// val = Math.ceil(1.1);
+// val = Math.floor(1.9);
+// val = Math.sqrt(81);
+// val = Math.abs(-81);
+// val = Math.pow(2,3);
+// val = Math.min(1, 8, -8, 1, 0);
+// val = Math.max(1, 8, -8, 1, 0);
+// val = Math.random();
+
+// val = Math.floor(Math.random() * 100 + 1);
+
+// console.log(val)
+
+// date object
+// let val;
+// let today = new Date();
+// let birthday = new Date('08-26-1997 11:25:27');
+
+// val = today;
+// val = today.toString();
+// val = birthday;
+// console.log(val);
+// let  today = new Date();
+// let val = today.getMonth();
+// console.log(val);
