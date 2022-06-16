@@ -562,3 +562,104 @@ console.log(a)*/
 // let  today = new Date();
 // let val = today.getMonth();
 // console.log(val);
+
+
+// var and let and cost
+// let and cosnt (ES6)
+
+// var a = 10;
+// a = a + 7
+
+// var a;
+
+// let b = 6;
+// b = b*67;
+// let b;
+
+// Global Scope 
+// var a = 1;
+// let b = 2;
+// const c = 3;
+
+// console.log('Globla Scope: ', a, b, c);
+
+// function test(){
+//     var a = 4;
+//     let b = 5;
+//     const c = 6;
+//     console.log("Functions Scope: ", a,b,c);
+// }
+// test();
+
+// console.log('Global Scope :', a, b, c)
+
+
+// class (ES6)
+
+// let person1 = {
+//     firstname: "Fazle",
+//     lastname: "Rahat",
+//     dob: "11-13-1995",
+
+//     fullname: function(){
+//         console.log(`${this.firstname} ${this.lastname}`);
+//     }
+// }
+
+// let person2 = {
+//     firstname: "Fazle",
+//     lastname: "Rahat",
+//     dob: "11-13-1995",
+
+//     fullname: function(){
+//         console.log(`${this.firstname} ${this.lastname}`);
+//     }
+// }
+
+// console.log(person1)
+// console.log(person2)
+
+// class Person{
+//      constructor(fname,lname,dob){
+//          this.firstname = fname;
+//          this.lastname = lname;
+//          this.dob = dob;
+//      }
+
+//      calculateAge(){
+//          let birthday = new Date(this.dob);
+//          let diff = Date.now() - birthday.getTime();
+//          let ageDate = new Date (diff);
+//          return Math.abs(ageDate.getUTCFullYear() - 1970);
+//      }
+// }
+
+// let person1 = new Person("Fazle", "Rahat", "11-13-1995");
+// let person2 = new Person('Fazle','Rahat' ,'11-13-1995');
+// let person3 = new Person('Fazle','Rahat' ,'11-13-1995');
+
+// console.log(person1.calculateAge());
+
+// class Person{
+//     constructor(fname, lname){
+//         this.firstname = fname;
+//         this.lastname = lname;
+//     }
+
+//     greeting(){
+//         return `Hello ${this.firstname} ${this.lastname}!`;
+//     }
+// }
+
+// class Customer{
+//     constructor(){
+//         this.firstname = fname;
+//         this.lastname = lname;
+//         this.phone = phone;
+//         this.memberShip = this.memberShip;
+//     }
+// }
+
+// let person1 = new Person("Fazle","Rahat")
+
+// console.log(person1)
