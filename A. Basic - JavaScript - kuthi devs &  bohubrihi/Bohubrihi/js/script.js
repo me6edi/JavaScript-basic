@@ -663,3 +663,103 @@ console.log(a)*/
 // let person1 = new Person("Fazle","Rahat")
 
 // console.log(person1)
+
+
+// Sub class
+// Inheritance
+
+// class Person{ //Base
+//     constructor(fname,lname)
+//     {
+//         this.firstname = fname;
+//         this.lastname = lname;
+//     }
+
+//     greeting(){
+//         return `hello ${this.firstname} ${this.lastname}!`;
+//     }
+
+//     fullname(){
+//         console.log(this.firstname,this.lastname)
+//     }
+// }
+
+// class Customer extends Person{ //subclass
+//     constructor(fname, lname,phon,memberShip){
+//         super(fname,lname);
+//         this.phone = phone;
+//         this.memberShip = memberShip;
+
+//     }
+// }
+// let person1 = new Person("Mehedi", "Amin");
+// console.log(person1)
+// console.log(person1.greeting());
+
+// class Person{ 
+//     constructor(fname,lname)
+//     {
+//         this.firstname = fname;
+//         this.lastname = lname;
+//     }
+
+//     greeting(){
+//         console.log(`Hello ${this.firstname} ${this.lastname}!`);
+//     }
+
+//     static test(){
+//         console.log("I am static function")
+//     }
+// }
+
+// let person1 = new Person("Mehedi" , "Amin")
+// console.log(person1.greeting())
+// console.log(Person.test())
+
+// class Mycar{
+//     constructor(name,year,color){
+//         this.name = name;
+//         this.year = year;
+//         this.color = color;
+//     }
+// }
+
+// let Car1 = new Mycar("BMW\n",1995,"Red");
+// console.log("Name of car:",Car1.name,"Name of year:",Car1.year,"Name of color:",Car1.color)
+
+// let val;
+// val = this;
+// val = window;
+// val = window.document;
+// val = document.all;
+// val = document.all[2];
+// val = document.all.length;
+// val = document.head;
+// val = document.body;
+// val = document.title;
+// val = document.doctype;
+// val = document.URL;
+// console.log(val);
+
+// document.getElementById
+
+// let val;
+// val = document.getElementById('document-title');
+// val = document.getElementById('document-title').id;
+// val = document.getElementById('document-title');
+
+// // Changing Style
+
+// document.getElementById('document-title').style.background = '#3333'
+// document.getElementById('document-title').style.color = 'red';
+// document.getElementById('document-title').style.padding = '10px';
+// document.getElementById('document-title').style.display = 'block'
+
+// // Changing Content
+// document.getElementById('document-title').textContent = "New Title"
+// document.getElementById('document-title').innerText = 'Again New Title'
+// document.getElementById('document-title').innerHTML = "<i>Welcome</i>"
+// val = document.getElementById('document-title');
+// val.innerText = "Ha ha ha"
+
+// console.log(val)
