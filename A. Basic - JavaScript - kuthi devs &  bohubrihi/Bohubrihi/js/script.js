@@ -763,3 +763,21 @@ console.log(a)*/
 // val.innerText = "Ha ha ha"
 
 // console.log(val)
+
+// Multiselector
+
+// document.getElementsByClassName()
+
+// let list = document.getElementsByClassName('sample-class');
+// list[0].style.background = 'red';
+// list[0].style.color = 'white';
+// list[0].style.padding = '10px';
+// list[0].textContent = "Hello World";
+
+// // console.log(list[0]);
+// // document.getElementsByTagName()
+
+// // list = document.getElementsByTagName('li');
+// list = document.querySelector('ol');
+// console.log(list);
+
