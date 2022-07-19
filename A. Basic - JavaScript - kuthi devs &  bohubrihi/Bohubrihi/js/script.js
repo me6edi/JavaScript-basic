@@ -826,3 +826,100 @@ val = listItem;
 console.log(val); 
 
 */
+
+// // Adding Element to DOM
+// // Create Element
+// let olItem = document.createElement('li');
+// // add Id and class 
+// olItem.className = "a new another-class";
+// olItem.id = 'new-element';
+
+// //Add attribute
+// olItem.setAttribute('title', 'A title to new Element');
+
+// olItem.appendChild(document.createTextNode('JavaScript'));
+// console.log(olItem);
+
+// document.querySelector('ol').appendChild(olItem);
+// //console.log(olItem);
+
+// let ulItem = document.createElement('li');
+// let link = document.createElement('a');
+
+// link.appendChild(document.createTextNode("Twitter"));
+
+// link.setAttribute('href','https://www.Twitter.com/');
+
+// ulItem.appendChild(link);
+
+// document.querySelector('ul').appendChild(ulItem);
+
+// console.log(ulItem)
+// // console.log(link)
+
+// // Replacing Elements
+// let newHeading = document.createElement('h1');
+// newHeading.appendChild(document.createTextNode("H1 New Heading"));
+// newHeading.className = "Sample class";
+
+// let oldHeading = document.querySelector('h3');
+
+
+
+// console.log(newHeading)
+
+// Remove Element
+
+// let listItem = document.querySelectorAll('li');
+// let list = document.querySelector('ul');
+
+// // listItem[0].remove();
+// // listItem[5].remove();
+
+// // list.removeChild(listItem[0]);
+
+// list.classList.add('test');
+// list.classList.add("test-new");
+
+// list.classList.add('sample-class');
+
+// let val = list.hasAttribute('title');
+// list.setAttribute('title', "New Title");
+
+// list.removeAttribute("title")
+
+// console.log(val);
+
+// console.log(list);
+// console.log(listItem);
+
+
+
+// Events of JavaScript
+// Onclick
+
+// Event Listener
+
+document.getElementById('btn').addEventListener('mouseover', message)
+document.querySelector('.container').style.background = 'red'
+function message(e){
+    let val = e;
+    val = e.target;
+    val = e.target.id;
+
+    val = e.timeStamp;
+    val = e.type;
+    val = e.clientY;
+    val = e.clientX;
+    val = this;
+
+    console.log(val)
+
+
+    this.style.background = '#${e.offsetX}'
+
+    // console.log(val);
+    console.log(e.ofsetX);
+    console.log(e.offsetY);
+}
+
