@@ -900,26 +900,152 @@ console.log(val);
 
 // Event Listener
 
-document.getElementById('btn').addEventListener('mouseover', message)
-document.querySelector('.container').style.background = 'red'
-function message(e){
-    let val = e;
-    val = e.target;
-    val = e.target.id;
+// document.getElementById('btn').addEventListener('mouseover', message)
 
-    val = e.timeStamp;
-    val = e.type;
-    val = e.clientY;
-    val = e.clientX;
-    val = this;
+// document.querySelector('.container').style.background = 'red'
+// function message(e){
+//     let val = e;
+//     val = e.target;
+//     val = e.target.id;
 
-    console.log(val)
+//     val = e.timeStamp;
+//     val = e.type;
+//     val = e.clientY;
+//     val = e.clientX;
+//     val = this;
+
+//     console.log(val)
 
 
-    this.style.background = '#${e.offsetX}'
+//     this.style.background = '#${e.offsetX}'
 
-    // console.log(val);
-    console.log(e.ofsetX);
-    console.log(e.offsetY);
-}
+//     // console.log(val);
+//     console.log(e.ofsetX);
+//     console.log(e.offsetY);
+// }
+
+// Error Handling
+// console.log("Before Error!");
+// try{
+//     test();
+// } catch(err){
+//     console.log(err.message);
+//     console.log(err.name);
+// } finally{
+//     console.log("I am inside finallu")
+// }
+// console.log("After Error!");
+
+// let a = 2;
+
+// try{
+//     if(a>15) throw "Too Big";
+//     else if (a<24) throw "Too small";
+// } catch(err){
+//     console.log(err);
+// }
+// Reqular expression
+// Pattern Matching Technique
+
+// let re;
+
+// let str;
+
+// re = /hello/;
+// re = /Hello/;
+// re = /hello/i; // i = case insensitive
+
+// console.log(re)
+// console.log(re.source);
+// str = "Hello World";
+// str = "Again Hello Word";
+// str = "Hello Worl";
+
+// // exec() - Returns result in an array or null
+// let result = re.exec(str)
+// // test() - true/false
+// result = re.test(str);
+// // match() - Returns array or null
+// str = "Again Hello Word";
+// result = str.match(re);
+
+// let re;
+// let str;
+// // LIteral Character
+// re = /hello/
+// re = /hello/
+
+// // Meta Chareactar
+// re = /^hello/; // Must start with
+// re = /hello$/; // Must end with
+// re = /world$/;
+// re = /he?a?llo/;
+
+
+// str = "Hello world"
+// str = "Hello  hello"
+// str = "Hello "
+// str = "Hell"
+// str = "hello"
+// str = "hillo"
+// str = "Hello world"
+// str = "Hello worlde"
+
+// console.log(re.exec(str));
+// reTest(re, str);
+// function reTest(re, str){
+//     if(re.test(str)){
+//         console.log(`'${str}' matches '${re.source}'`);
+//     }
+//     else{
+//         console.log(`'{str}' doesnt't match '${re.source}'`)
+//     }
+// }
+
+
+
+
+// // Examples
+
+// let re;
+// let str;
+
+// // Postal Code
+// // 4700, 400
+
+// re = /^[0-9]{4}$/;
+// str = "4000";
+
+// // Phone Number
+// // 012635645 +320321561410 052545451
+
+// re = /^(\+88)01[0-9]{4}$/;
+// str = "012635645";
+
+// // Email Address
+// // meheid@gmail.com
+// re = /^([a-zA-Z0-9]\.?)+[^\.]@$/;
+// str = "mehedi@edu.com.bd";
+// console.log(re.test(str));
+
+//JSON
+
+var student = {
+    name: "Mehedi Amin",
+    age: 23,
+    hometown: "Dhaka",
+};
+
+// var student_json = {
+//     'name': "hassan",
+//     'age': 25,
+//     'hometown': "borisal",
+// }
+
+var student_json = JSON.stringify(student);
+var student_new = JSON.parse(student_json);
+
+console.log(student_json);
+console.log(student_new);
+
 
