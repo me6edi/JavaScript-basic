@@ -1,0 +1,9 @@
+{
+    "persons":[
+        {"name": "Mehedi", "age": 25, "homedown": "Dhaka", "unmaried": false},
+        {"name": "Amin", "age": 25, "homedown": "Bogura", "maried": false},
+        {"name": "Rakib", "age": 25, "homedown": "Chadpur", "maried": false},
+        {"name": "Jinnu", "age": 25, "homedown": "Noyakhali", "unmaried": false},
+        {"name": "Noyon", "age": 25, "homedown": "Dinajpur", "maried": false}
+    ]
+}

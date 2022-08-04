@@ -1030,11 +1030,11 @@ console.log(val);
 
 //JSON
 
-var student = {
-    name: "Mehedi Amin",
-    age: 23,
-    hometown: "Dhaka",
-};
+// var student = {
+//     name: "Mehedi Amin",
+//     age: 23,
+//     hometown: "Dhaka",
+// };
 
 // var student_json = {
 //     'name': "hassan",
@@ -1042,10 +1042,69 @@ var student = {
 //     'hometown': "borisal",
 // }
 
-var student_json = JSON.stringify(student);
-var student_new = JSON.parse(student_json);
+// var student_json = JSON.stringify(student);
+// var student_new = JSON.parse(student_json);
 
-console.log(student_json);
-console.log(student_new);
+// console.log(student_json);
+// console.log(student_new);
 
 
+
+//JSON DATA TYPE
+
+// https://jsonlint.com
+// string
+// number
+// object(Json Object)
+// array
+// boolean
+// null
+
+// Doesn't Support undefined, date, function
+// var person = {
+//     name: "Rahim", //String
+//     age: 20, //Number
+//     hometown: "Dhaka",
+//     marrid: false, //Boolean
+//     dob: 1999-05-12, // Date
+//     test_null: null, // null
+//     test_undefined: undefined, //undefined
+//     greet: function(){ //function
+//         console.log(`Hello $(this.name)`)
+//     }
+// }
+
+// // person.greet();
+// var person_json = JSON.stringify(person)
+// console.log(person_json)
+
+// var person1 = {
+//     "name": "Rahim",
+//     "age":25,
+//     "hometown": "Dhaka",
+//     "married": false
+// };
+
+// var person2 = {
+//     name: "Karim",
+//     age:35,
+//     hometown: "Chaittagong",
+//     married: true
+// };
+// console.log(person1)
+
+
+// var xmlhttp = new XMLHttpRequest();
+// xmlhttp.onreadystatechange = function(){
+//     if (this.readyState == 4 && this.status == 200) {
+//         console.log(this.responseText);
+//     }
+// };
+// xmlhttp.open("GET", "'../js/data.json'", true);
+// xmlhttp.send()
+
+// function jsonData(json_obj){
+//     //  console.log(json_obj);
+//      var json_obj = JSON.parse(json_obj)
+     
+// }
